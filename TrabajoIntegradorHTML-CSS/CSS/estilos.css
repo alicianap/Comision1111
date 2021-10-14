@@ -1,0 +1,332 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.navega{
+    display: flex;
+    background-color:  #33393f;
+    height: 100px;
+    position: fixed;
+    width: 100vw;
+    z-index: 100;
+}
+.logo{
+    margin-left: 2vw;
+    margin-top: 0.75rem;
+    display: flex;
+    width: 130px;
+    height: 80px;
+    line-height: 100px;
+}
+.fuenteNav1{
+    font-size: 1.4em;
+    margin-top: 1.8rem; 
+    margin-right: 3vw;
+    color: white;
+    text-decoration: none;
+    display: flex;
+}
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+.nav-item{
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-top: 1.3rem;
+    width: max-content;
+}
+.nav-link{
+    text-decoration: none;
+    color: rgb(165, 150, 150);
+}
+.nav-link:hover{
+    color: white;
+}
+.nav-link2{
+    text-decoration: none;
+    color: green;
+}
+.nav-link2:hover{
+    color: aqua;
+}
+.seccion1{
+    background-image: url('../imagenes/ba1.jpg');
+    background-size: center cover;
+    width: 100vw;
+    height: 950px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.seccion1:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(24, 25, 26);
+    opacity: 0.5;
+}
+.seccion1 h1, h4{
+    position: relative;
+}
+.seccion1 h1{
+    color: white;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 4vw;
+}
+.seccion1 h4{
+    width: 50%;
+    color: white;
+    text-align: right;
+    margin-right: 4vw;
+}
+.btn-margen{
+    margin-top: 1.5rem;
+    display: flex;
+}
+.btn1-seccion1, .btn2-seccion1{
+    position: relative;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.5em;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 4vw;
+}
+.btn1-seccion1{
+    background-color: transparent;
+    border-style: solid;
+    border-color: white;
+}
+.btn2-seccion1{
+    background-color: green;
+    border: green;
+}
+.btn1-seccion1:hover{
+    color: rgb(48, 134, 48);
+}
+.btn2-seccion1:hover{
+    color: aqua;
+}
+.alinear-h, .estilo-h1{
+    text-align: center;
+}
+.estilo-h1{
+    font-weight: 600;
+}
+.seccion2 h4{
+    font-weight: 600;
+}
+.seccion2-cards{
+    display: flex;
+}
+#margen-lastcard{
+    margin-right: 5rem;
+}
+.btn-estilo1, .btn-estilo2, .btn-estilo3, .btn-estilo4{
+    padding: 0 3px;
+    font-weight: 700;
+}
+.btn-estilo2{
+    color: white;
+}
+.seccion3{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+#seccion3-foto{
+    height: 28rem;
+    display: flex;
+    margin: auto;
+}
+.seccion3-col50, .seccion3-col50-2{
+    width: 50vw;
+    max-height: 28rem;
+    border: 1px solid;
+}
+.seccion3-col50-2{
+    background-color: #4d4d4d;
+    padding: 15px;
+}
+.seccion3-col50-2 h2, h6{
+    color: white;
+}
+.seccion3-col50-2 h2{
+    font-weight: 600;
+}
+.btn-seccion3{
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 1em;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+.btn-seccion3:hover{
+    color: aqua;
+}
+.seccion4-p{
+    text-align: center;
+}
+.seccion4-form{
+    width: 27%;
+    height: 2.5rem;
+    padding-left: 1vw;
+    border-radius: 4px;
+}
+#apellido{
+    margin-left: 2vw;
+}
+#form-textarea{
+    width: 56%;
+    height: 10rem;
+    margin-left: 21.75vw;
+    padding-left: 2vw;
+    padding-top: 1vw;
+    font-size: 1.5em;
+    border-radius: 5px;
+}
+.seccion4-p2{
+    margin-left: 21.75vw;
+}
+#btn-seccion4{
+    width: 56%;
+    height: 3.5rem;
+    background-color:   #95c535;
+    color: white;
+    font-size: 1.5em;
+    border-radius: 5px;
+    margin-left: 21.75vw;
+}
+.piepagina{
+    display: flex;
+    height: 130px;
+    width: 100vw;
+    background: linear-gradient(to bottom, #1e3643 0%, #1e506e 100%);
+}
+.pie-menu{
+    display: flex;
+    align-items: center;
+    font-size: 1.3em;
+    list-style: none;
+}
+.pie-item{
+    margin-top: 1.6rem;
+    margin-right: 6vw;
+    text-align: center;
+}
+.primeritem{
+    margin-left: 6vw;
+}
+.pie-link{
+    text-decoration: none;
+    color: white;
+}
+.pie-link:hover{
+    color: #55ded6;
+}
+@media (max-width: 1140px){
+    .fuenteNav1{
+        font-size: 1.2em;
+        margin-top: 1rem;
+    }
+    .nav-item{
+        font-size: 1em;
+        font-weight: bold;
+        margin: 0 5px;
+        margin-top: 1.7rem;
+        justify-content: space-around;
+    }
+    .pie-item{
+        font-size: 0.8em;
+        margin-top: 1.7rem;
+        margin-right: 6vw;
+    }
+    .pie-link{
+        text-decoration: none;
+        color: white;
+    }
+    .pie-link:hover{
+        color: #55ded6;
+    }
+}
+@media (max-width: 992px){
+    .navega{
+        height: 70px;
+        margin: 0 auto;
+    }
+    .logo{
+        height: 70px;
+        line-height: 70px;
+    }
+    .fuenteNav1{
+        font-size: 1em;
+        margin-top: 0.5rem; 
+        line-height: 70px;
+    }
+    .nav-menu{
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        background-color:  #4d4d4d;
+        position: fixed;
+        left: 0;
+        top: 65px;
+        width: 35%;
+        padding: 20px 0;
+        overflow-y: auto;
+    }
+    .nav-item{
+        font-size: 1em;
+    } 
+    .seccion1 h1{
+        margin-right: 2.8vw;
+    }
+    #margen-lastcard{
+        margin-right: 2rem;
+    }
+    .seccion2-cards{
+        flex-direction: column;
+        align-items: flex-end;
+    }
+}
+@media (max-width: 768px){
+    .btn1-seccion1, .btn2-seccion1{
+        display: none;
+    }
+    .seccion3{
+        flex-direction: column;
+    }
+    .seccion3-col50, .seccion3-col50-2{
+        width: 100vw;
+    }
+    .piepagina{
+        height: 22rem;
+    }
+    .pie-menu{
+        flex-direction: column;
+        font-size: 0.8em;
+    }
+    .primeritem{
+        margin-left: 1vw;
+    }
+}
+/* @media (min-width: 360px){
+    .seccion2-cards{
+        flex-direction: column;
+        align-items: flex-end;
+    }
+} */
