@@ -1,0 +1,95 @@
+#nav-tickets{
+    margin-left: 4vw;
+    margin-right: 8vw;
+}
+.seccion1-tickets{
+    display: flex;
+    height: 24rem;
+}
+.seccion1-tarjeta{
+    width: 20vw;
+    height: 15rem;
+    margin-top: 130px;
+}
+.card1{
+    border: 2px solid #4b9af9;
+    box-shadow: 0px 0px 10px 2px #76abed;
+}
+.card2{
+    border: 2px solid #44b0c1;
+    box-shadow: 0px 0px 10px 2px #4db5c5;
+}
+.card3{
+    border: 2px solid #f9c844;
+    box-shadow: 0px 0px 10px 2px #fde194;
+}
+.seccion1-lista{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    padding-top: 2rem;
+}
+.seccion1-lista>li{
+    height: 3rem;
+}
+.estilo-h4{
+    font-weight: 600;
+}
+.estilo-h5{
+    font-weight: 700;
+}
+.seccion2-alinear{
+    text-align: center;
+}
+#estilo-h2-secc2{
+    font-weight: 600;
+}
+.seccion2-p{
+    text-align: center;
+}
+.seccion2-form{
+    width: 31.5vw;
+    height: 2.5rem;
+    padding-left: 1vw;
+    border-radius: 4px;
+}
+#apellido{
+    margin-left: 1vw;
+}
+#email{
+    width: 64vw;
+}
+#seccion2-p2{
+    margin-left: 18.5vw;
+}
+#seccion2-label{
+    margin-left: 28vw;
+}
+#cantidad, #total, #borrar{
+    margin-left: 17.5vw;
+}
+#categoria, #resumen{
+    margin-left: 1vw;
+}
+#total{
+    width: 64vw;
+    height: 3rem;
+    border-radius: 4px;
+    padding-left: 22vw;
+    background-color: #cbe4fe;
+    color: #4b9af9;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+#borrar, #resumen{
+    height: 3rem;
+    background-color: #95c842;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+
+

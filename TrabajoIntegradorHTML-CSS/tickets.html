@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">  
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="stylesheet" href="CSS/estilostickets.css">
+    <script src="JS/js1.js" language="javascript"></script>
+    <title>Compra de tickets</title>
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="navega">
+            <a href="index.html" target="_blank" class="fuenteNav1" id="nav-tickets">Conf Bs As</a>           
+            <ul class="nav-menu">
+              <li class="nav-item"><a href="#" class="nav-link active">La conferencia</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Los oradores</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">El lugar y la fecha</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Conviértete en orador</a></li>
+              <li class="nav-item"><a href="tickets.html" class="nav-link nav-link2">Comprar tickets</a></li>
+            </ul>
+          </div>
+        </nav>
+    </header> 
+    <main>
+      <section>
+        <div class="seccion1-tickets">
+          <div class="seccion1-tarjeta card1" style="margin-left: 18vw; margin-right: 1.5vw;">
+            <ul class="seccion1-lista">
+                <li><h4 class="estilo-h4">Estudiante</h4></li>
+                <li><h5>Tienen un descuento</h5></li>
+                <li><h5 class="estilo-h5">80 %</h5></li>
+                <li><p>* presentar documentación</p></li>
+              </ul>
+          </div>
+          <div class="seccion1-tarjeta card2" style="margin-right: 1.5vw;">
+            <ul class="seccion1-lista">
+              <li><h4 class="estilo-h4">Trainee</h4></li>
+              <li><h5>Tienen un descuento</h5></li>
+              <li><h5 class="estilo-h5">50 %</h5></li>
+              <li><p>* presentar documentación</p></li>
+            </ul>
+          </div>
+          <div class="seccion1-tarjeta card3" style="margin-right: 18vw;">
+            <ul class="seccion1-lista">
+              <li><h4 class="estilo-h4">Junior</h4></li>
+              <li><h5>Tienen un descuento</h5></li>
+              <li><h5 class="estilo-h5">15 %</h5></li>
+              <li><p>* presentar documentación</p></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="seccion2-tickets">
+          <div class="seccion2-alinear">
+            <h5>VENTA</h5>
+            <h2 id="estilo-h2-secc2">VALOR DEL TICKET : $200</h2>
+          </div><br>
+          <form action="" target="_blank" method="post">
+            <p class="seccion2-p">
+              <input type="text" name="nombre" placeholder="Nombre" id="nombre" class="seccion2-form">
+              <input type="text" name="apellido" placeholder="Apellido" id="apellido" class="seccion2-form">
+            </p>
+            <p class="seccion2-p">
+              <input type="text" name="email" placeholder="Correo" id="email" class="seccion2-form">
+            </p>
+            <p id="seccion2-p2">
+              <label for="cantidad">Cantidad</label>
+              <label for="categoria" id="seccion2-label">Categoría</label>
+            </p>
+            <p>
+              <input type="number" name="cantidad" placeholder="Cantidad" id="cantidad" class="seccion2-form">
+              <select class="seccion2-form" id="categoria">
+                <option value="1" selected>Estudiante</option>
+                <option value="2">Trainee</option>
+                <option value="3">Junior</option>
+              </select>
+            </p><br>
+              <input type="text" id="total" value="Total a pagar : $">
+            <p><br>
+              <button type="reset" id="borrar" class="seccion2-form" onclick="borrado();">Borrar</button>
+              <button type="button" id="resumen" class="seccion2-form" onclick="calcular();">Resumen</button>
+            </p><br><br>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="piepagina">
+        <ul class="pie-menu">
+          <li class="pie-item primeritem"><a href="#" class="pie-link">Preguntas<br>frecuentes</a></li>
+          <li class="pie-item"><a href="#" class="pie-link">Contáctanos</a></li>
+          <li class="pie-item"><a href="#" class="pie-link">Prensa</a></li>
+          <li class="pie-item"><a href="#" class="pie-link">Conferencias</a></li>
+          <li class="pie-item"><a href="#" class="pie-link">Términos y<br>condiciones</a></li>
+          <li class="pie-item"><a href="#" class="pie-link">Privacidad</a></li>
+          <li class="pie-item"><a href="#" class="pie-link">Estudiantes</a></li>
+        </ul>
+      </div>
+  </footer>   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>
